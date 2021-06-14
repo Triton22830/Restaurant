@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!-- Name: Laura Welfley
+Date Created: May 27, 2021
+Last Edit:
+-->
+
+<html lang="en">
+	<head>
+		<title>Pasta Galore Contact
+		</title>
+		
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css">
+		
+		<style>
+		label, fieldset{ font-size: 1.1em;
+		}
+		input[type=text] { 
+		border: 2px solid; 
+		width: 50%; 
+		padding: 8px 8px; 
+		margin: 12px 0; 
+		box-sizing: border-box; 
+		font-size: 1.1em;
+		}
+		fieldset { 
+		background-color: #fef9ff; 
+		width: 100%; 
+		padding: 12px 20px; 
+		margin: 12px 0; 
+		box-sizing:	border-box;
+		}
+		select, textarea { 
+		margin: 12px 0; 
+		font-size: 1em;
+		}
+		input[type=submit] { 
+		font-size: 1.2em; 
+		background-color: #546a7b; 
+		color: #fef9ff; 
+		padding: 4px 8px;
+		}
+		input[type=submit]:hover { 
+		background-color: #f2eded; 
+		color: #546a7b;
+		}
+		textarea { 
+		width: 100%; 
+		height: 200px; 
+		padding: 12px 20px; 
+		margin: 12px 0; 
+		box-sizing: border-box; 
+		border: 2px solid #0d1f2d; 
+		border-radius: 3px; 
+		background-color: #fff; 
+		resize: none;}	
+		</style>
+		
+	</head>
+		
+	<body>
+		<p>Contact Us</p>
+		
+	
+		<header>
+			<h1><p><center>Pasta Galore</center></h1></p>
+		</header>
+	
+	
+	<nav>
+		<p>
+		<a href="Home.html">Home</a>
+		<a href="Menu.html">Menu</a>
+		<a href="ContactUs.html">ContactUs</a>
+		</p>
+		<br />
+	</nav>
+	
+	
+	
+	<p>
+  
+	<center>
+	<article>
+	<form action="ContactUs.html" method="POST">
+		Name: <input type="text" name="Name" /><br />
+		Email: <input type="text" name="Email" /> <br />
+		Phone: <input type="text" name="Phone" / ><br /> 
+		
+		Reason for Inquiry:<select name="Reason for Inquiry">
+		<option value="Catering">Catering</option>
+		<option value="Private Party">Private Party</option>
+		<option value="Feedback">Feedback</option>
+		<option value="Other">Other</option>
+		</select><br />
+		
+		Additional Information: <textarea name="Additional Information">
+		</textarea><br />
+		
+		Have you been to the restaurant?:<input type="radio" name="answer" value="NO" checked />No<br />
+		<input type="radio" name="answer" value="YES"/>Yes<br />
+		
+		Best days to contact you:<input type="checkbox" name="Weekdays" value="MONDAY"/>M
+		<input type="checkbox" name="Weekdays" value="TUESDAY"/>T
+		<input type="checkbox" name="Weekdays" value="WEDNESDAY"/>W
+		<input type="checkbox" name="Weekdays" value="THURSDAY"/>Th
+		<input type="checkbox" name="Weekdays" value="FRIDAY"/>F <br />
+		
+		<input type="submit" display="Send Request"/>
+<!-- Figure out how to make it say Send Request instead of Submit -->
+	
+	</center>
+	</article>
+	</p>
+	
+	
+	
+	<footer>
+	<p><center>117 N Ravioli Ave, Toronto, MI 43210 <br /> 440-454-4455
+	</center></p>
+	</footer>
+	
+</body>
+</html>
